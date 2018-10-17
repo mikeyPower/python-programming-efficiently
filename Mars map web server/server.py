@@ -5,3 +5,10 @@ Hints:
     . Find the first location in locations.xml where startSol <= requested day <= endSol 
     . Use matplotlib.pyplot.savefig() to write to an io.BytesIo() buffer before converting to base64
 '''
+
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'
