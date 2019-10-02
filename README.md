@@ -43,4 +43,8 @@ To uninstall packages run this command.
 To install a virtual environment we will be using virtualenvwrapper
 
     $ sudo pip3 install virtualenvwrapper
+    
+Now that virtualenvwrapper is installed, lets create our virtual environment
+
+    $ mkvirtualenv myvirtualenv --python=/usr/bin/python3.7
 
