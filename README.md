@@ -39,5 +39,8 @@ It means that pip3 is successfully installed on your system. Now we can start in
 To uninstall packages run this command.
 
     $ pip3 uninstall <package_name>
+    
+To install a virtual environment we will be using virtualenvwrapper
 
+    $ sudo pip3 install virtualenvwrapper
 
