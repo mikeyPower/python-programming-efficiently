@@ -48,3 +48,14 @@ Now that virtualenvwrapper is installed, lets create our virtual environment
 
     $ mkvirtualenv myvirtualenv --python=/usr/bin/python3.7
 
+If successful you should now see your virtual environment being created by appearing left of the dollar sign ($)
+
+    (myvirtualenv) $
+    
+To deactivate your virtual environment, run the command.
+
+    (myvirtualenv) $ deactivate
+    
+You should now see just the normal dollar sign symbol ($) on the terminal and no active virtual envirnoment. To reactivate your virtual environment run the command.
+
+    $ workon myvirtualenv
