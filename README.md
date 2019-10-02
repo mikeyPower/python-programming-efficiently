@@ -67,3 +67,7 @@ You should now see just the normal dollar sign symbol ($) on the terminal and no
 To see all your current virtual environments currently on your system, run the following command.
 
     $ lsvirtualenv
+    
+If you'd like to remove a virtual environment use the following command.
+
+    $ rmvirtualenv <environment_name>
