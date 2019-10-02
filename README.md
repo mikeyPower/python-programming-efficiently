@@ -17,3 +17,19 @@ You're a good to go, if not open a terminal and run the following commands
 To see if it's installed run
 
      $ python3 -V
+
+Once python is installed now it's time to install pip which is a command line based package management system. It is used to install and manage libraries in Python.
+
+To install pip on python3.7 we shall run the following command
+
+    $ python3.7 -m pip install pip
+    
+You should verify that pip has been installed correctly using this command:
+
+    $ pip3 --version
+    
+It should show you a number like this:
+
+    pip 18.0 from /usr/lib/python3.7/site-packages/pip (python 3.7)
+    
+It means that pip3 is successfully installed on your system.
