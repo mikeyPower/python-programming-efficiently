@@ -40,6 +40,10 @@ To uninstall packages run this command.
 
     $ pip3 uninstall <package_name>
     
+In order to see all local installed packages, the following pip command will help.
+
+    $ pip list
+    
 To install a virtual environment we will be using virtualenvwrapper
 
     $ sudo pip3 install virtualenvwrapper
@@ -59,3 +63,7 @@ To deactivate your virtual environment, run the command.
 You should now see just the normal dollar sign symbol ($) on the terminal and no active virtual envirnoment. To reactivate your virtual environment run the command.
 
     $ workon myvirtualenv
+
+To see all your current virtual environments currently on your system, run the following command.
+
+    $ lsvirtualenv
