@@ -71,3 +71,6 @@ To see all your current virtual environments currently on your system, run the f
 If you'd like to remove a virtual environment use the following command.
 
     $ rmvirtualenv <environment_name>
+
+
+## TO DO: Unit Testing (nosetest)
